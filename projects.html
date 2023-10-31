@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<style>
+    body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  background-image: url("backimg.jpg");
+  background-size: cover;
+
+}
+header {
+display: flex;
+justify-content: space-between;
+    background-color:transparent;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+padding-top: 20px;
+
+
+}
+
+header h3 {
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+}
+
+
+nav ul li {
+    display: inline;
+ margin-right: 20px;
+    font-size: larger;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.maindiv{
+    padding-top: 6em;
+}
+@media(max-width:491px){
+    .maindiv{
+        padding-top: 8em;
+    }
+}
+#marquee1{
+    width: 15em;
+}
+@media(max-width:555px){
+    nav ul li{
+       font-size: 15px;
+    }
+}
+@media(max-width:514px){
+    nav ul li{
+       font-size: 14px;
+    }
+}
+@media(max-width:504px){
+    nav ul li{
+       font-size: 13px;
+    }
+}
+@media(max-width:495px){
+    nav ul li{
+       font-size: 12px;
+    }
+}
+@media(max-width:484px){
+    nav ul li{
+       font-size: 11px;
+    }
+}
+@media(max-width:475px){
+    nav ul li{
+       font-size: 10px;
+    }
+}
+@media(max-width:465px){
+    nav ul li{
+       font-size: 25px;
+    color: rgb(56, 55, 55);
+    }}
+
+img{
+    border-style: none;
+    border-radius: 10em;
+    margin-left: 2em;
+}
+h3{
+    color: whitesmoke;
+}
+.subdiv{
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    height: auto;
+    width:16em;
+    margin-top:30px ;
+    margin-left: 30px;
+}
+#image{
+    padding: 15px;
+    height: 170px;
+    width: 170px;
+    margin-left: 15px;
+}
+.minidiv{
+    height:auto ;
+    width: auto;
+    margin-left: 3px;
+    margin-right: 3px;
+ color: whitesmoke;
+ border:2px solid white;
+ margin-bottom: 5px;
+ border-radius: 15px;
+ padding: 15px;
+ text-align: justify;
+}
+.maindiv{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content:space-around;
+}
+#button{
+    border: none;
+    height: 30px;
+    width: auto;
+    margin-left: 25%;
+    border-radius: 15px;
+    background-color: aqua;
+    color: black;
+}
+#button a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+#button:hover{
+    background-color: rgb(65, 161, 206);
+    color: black;
+}
+</style>
+<body>
+    <header>
+      <marquee id="marquee1">  <h3 >Pawan Pokhrel</h3></marquee>
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="projects.html" >Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+    <div class="maindiv">
+    <div class="subdiv">
+        <img src="MMS.png" id="image">
+        <div class="minidiv" >
+            This is my Very First project. It allows you to listen to your fovourite melody tunes.It will have almost all songs by a year. Though its not completed yet I have host it through GitHub. <br><br>
+            <button id="button"><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fnbpawan22.github.io%2Fshonicthrill%2F%3Ffbclid%3DIwAR11nWSbjXFrmHGXNm8vbJm7A9nIGbdC42FbeKXoH11Sw4Hj3sfa3W9VLTY&h=AT2lxsPl5WrmiNXILdvz1RHvRpPJ_f_YfTDmJHu6SrGz81LqOw14R_NKOPWXpvdKdDakbQjStfVyWkmmljzEAzzxMfYb-yMrDth9tUCNRNeWrwb_5a40NTTwM7nlqPV8bfje4A">Listen Now</a></button>
+        </div>
+    </div>
+
+    <div class="subdiv">
+        <img src="books.png" id="image">
+        <div class="minidiv" >
+            This is my one small project .It allows you to read any novel or literary books of any languages.This project is still not completed and not responsive any other devices except PCs.<br><br>
+            <button id="button"><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fnbpawan22.github.io%2FReadGrowTogether%2Findex.html%3Ffbclid%3DIwAR3IL47tEhzXCDifdNY-pZLoy-6HWbiXpbQcBEulOfGUV8qMR9SvNKby6Kc&h=AT2xy47SJoe6J9YRp9R0kuPGtnLIfdXqzq3RgZkAGuKN3jtr12XsPe6MRSQTvZ3v89GimWWTqXnIM4JQZ45KwVwwFnfMHac9KkReUr51EiC3k-pkMIxDUZ1lVocXj40N9zirLg">Read Now</a></button>
+        </div>
+    </div>
+</div>
+    </body>
+    </html>
